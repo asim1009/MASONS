@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASONS Engineering | Project Showcase</title>
+    <style>
+       body {
+    background: linear-gradient(to right, #793600, #ec8c43); /* Gradient from orange to peach */
+    color: #333; /* Optional: Set text color for contrast */
+}
+        .project-title {
+        font-size: 3rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        margin-bottom: 1rem;
+        }
+        .projects-container {
+            padding: 2rem 5%;
+        }
+    
+        .project-row {
+            display: flex;
+            gap: 4rem;
+            margin-bottom: 2rem;
+            align-items: center;
+        }
+    
+        .project-image-container {
+            flex: 1;
+            min-width: 50%;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+            border-radius: 8px;
+        }
+    
+        .project-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+    
+        .project-image:hover {
+            transform: scale(1.05);
+        }
+        .photo-gallery {
+    padding: 1rem 5%;
+    background: linear-gradient(to right, #793600, #ec8c43); /* Gradient from orange to peach */
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+    </style>
+</head>
+<body>
+    <!-- Keep existing header and navigation -->
+   
+    <section class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-row">
+            <div class="project-image-container">
+                <img src="project4.jpg" class="project-image" alt="Modern Residence">
+            </div>
+            <div class="project-text">
+                <h3 class="project-title">Client Testimony</h3>
+                <ul class="project-details">
+                    <li><strong>Location:</strong> Islamabad, PK</li>
+                    <li><strong>Completed:</strong> 2023</li>
+                    <li><strong>Size:</strong> 3,500 sqft</li>
+                    <li><strong>Style:</strong> Contemporary Modern</li>
+                </ul>
+                <p class="project-description">
+                    Working with MASONS Engineering was an absolute game-changer 
+                    for our family home project. From our initial consultation 
+                    through to the final walkthrough, your team demonstrated 
+                    unparalleled professionalism and expertise. When we hit 
+                    unexpected bedrock during excavation for our hillside property
+                     in Napa Valley, your engineers devised an innovative cantilevered
+                      foundation solution that not only preserved our stunning vineyard
+                       views but added unique architectural interest. The precision of 
+                       your concrete work and seamless coordination between your 
+                       structural engineers and design team transformed our vision
+                        into a breathtaking reality. What impressed us most was your
+                         daily communication portal - seeing real-time updates and 
+                         being able to virtually walk through each completed phase 
+                         gave us complete confidence. You delivered our modern farmhouse
+                          six weeks ahead of schedule while maintaining the highest 
+                          quality standards. Our friends still can't believe we built
+                           this magazine-worthy home without a single stressful moment.
+                            MASONS has set a new benchmark for what engineering-led 
+                            construction can achieve."<br>
+                    <strong>— The Carter Family, Napa Valley Residence (2023)</strong>
+                </p>
+                   
+            </div>
+        </div>
+
+       </section>
+       <section class="photo-gallery">
+        <h2 class="gallery-title">Under Construction Photos</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="project1.jpg" alt="Luxury Villa" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="project2.jpg" alt="Urban Apartment" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="project3.jpg" alt="Beach House" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="Project1A.jpg" alt="Modern Office" class="gallery-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Keep existing contact section and scripts -->
+</body>
+</html>
