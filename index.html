@@ -36,23 +36,24 @@
             transition: transform 0.3s ease;
         }
 
-        nav {
-            padding: 2rem 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            mix-blend-mode: difference;
-        }
+      nav {
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    /* mix-blend-mode: difference; */ /* Commented out to prevent blending issues */
+}
 
-        .logo {
-            font-size: 1.2rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
-        }
+.logo {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #ffffff; /* Ensure the text color contrasts with the background */
+}
 
         .nav-items {
             display: flex;
