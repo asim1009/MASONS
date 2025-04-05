@@ -19,11 +19,12 @@
         }
 
         body {
-        background-image: url('background.jpg'); /* Replace 'your-image.jpg' with the path to your image */
-        background-size: cover; /* Ensures the image covers the entire background */
-        background-position: center; /* Centers the image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
-    }
+            background-image: url('./images/background.jpg'); /* Ensure the correct relative path */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+        }
+
         .custom-cursor {
             position: fixed;
             width: 20px;
@@ -75,8 +76,8 @@
         }
 
         .nav-item:hover {
-    background: var(--accent);
-    color: var(--primary);
+            background: var(--accent);
+            color: var(--primary);
         }
 
         .hero {
@@ -95,7 +96,7 @@
             line-height: 1;
             color: #f5f5f5;
             position: absolute;
-            top: 30%; /* Moves text 25% down from the top */
+            top: 40%; /* Moves text 40% down from the top */
             left: 40%; /* Moves text 30% from the left */
             transform: translate(-50%, -50%); /* Centers text exactly */
         }
@@ -107,7 +108,7 @@
             line-height: 1;
             color: #f5f5f5;
             position: absolute;
-            top: 50%; /* Moves text 25% down from the top */
+            top: 60%; /* Moves text 60% down from the top */
             left: 39%; /* Moves text 30% from the left */
             transform: translate(-50%, -50%); /* Centers text exactly */
         }
@@ -219,9 +220,9 @@
 
     <div class="scroll-progress"></div>
 
-    <!-- Add a prominent title -->
-    <header style="text-align: center; padding: 2rem 0; background-color: var(--primary); color: var(--secondary);">
-        <h1 style="font-size: 3rem; font-family: 'Calibri', sans-serif; font-weight: bold; letter-spacing: 0.1em;">
+    <!-- Adjust the title to be subtler -->
+    <header style="text-align: center; padding: 1rem 0; background-color: var(--primary); color: var(--secondary);">
+        <h1 style="font-size: 2rem; font-family: 'Calibri', sans-serif; font-weight: 500; letter-spacing: 0.05em;">
             MASONS ENGINEERING
         </h1>
     </header>
